@@ -12,7 +12,15 @@ To write a program to find the maximum of a list of numbers.
 
 i)	# To find the maximum of marks using the list method sort.
 ```Python
-
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: V.Prithviraj
+RegisterNumber:22004659 
+'''
+def max_marks(marks):
+    marks.sort()
+    large = marks[-1]
+    return large
 
 
 ```
@@ -20,18 +28,36 @@ i)	# To find the maximum of marks using the list method sort.
 ii)	# To find the maximum marks using the list method max().
 ```Python
 
-
+''' 
+Program to find the maximum marks using the list method max().
+Developed by:Prithviraj.V 
+RegisterNumber:22004659 
+'''
+def max_marks(marks):
+    large = max(marks)
+    return large
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
 ```Python
 
-
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: Prithviraj.V
+RegisterNumber: 22004659
+'''
+def max_marks(list1):
+    max = list1[0]
+    for i in list1:
+        if i > max:
+            max = i
+    return max        
 
 ```
 ## Sample Input and Output
-![output](./img/max_marks1.jpg) 
+![Screenshot 2023-01-26 201904](https://user-images.githubusercontent.com/121418418/214884179-3ccf128f-5c2f-4163-887a-59beb745321d.png)
+
 
 ## Output:
 
